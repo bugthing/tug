@@ -18,7 +18,7 @@ You dont *have* to spin-up a *cloud* server, you could:
 * install and network a phyical machine
 * configure a virtual machine (vagrant)
 
-For quick easy access you can add the follwing to your ssh config file `~/.ssh/config`
+For quick easy access you can add the following to your ssh config file `~/.ssh/config`
 
 ```
 Host tug-server
