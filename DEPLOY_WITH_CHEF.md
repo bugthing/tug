@@ -96,7 +96,7 @@ We should be ready to provision our vanilla Linux machine.
 
 First lets grab the cookbooks from Berkshelf
 
-    $ berks install
+    $ bundle exec berks install
 
 Now lets prepare the Linux machine
 
@@ -113,9 +113,9 @@ Now all our ducks are in a row, we can make changes to recipes, nodes, etc. then
 
     $ bundle exec knife solo cook tug-server
 
-If you introduced any more cookbooks from the super market you'll need to run
+If you introduced any more cookbooks from the supermarket you'll need to run
 
-    $ berks install
+    $ bundle exec berks install
 
 Write  a recipe
 ---------------
@@ -149,5 +149,5 @@ deploy 'tug' do
 end
 ```
 
-`package` is one of Chef's most basic methods, see more at [Chef Docs](http://docs.chef.io/search.html) for more
+`package` is one of Chef's most basic methods, see more at [Chef Docs](http://docs.chef.io/search.html)
 
